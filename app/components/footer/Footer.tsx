@@ -1,12 +1,13 @@
+"use client";
 import React from "react";
 import Container from "@/app/components/Container";
 
-const HomePage = () => {
+const Footer = () => {
     return (
         <Container>
-            <div>HomePage</div>
+            Footer
         </Container>
     );
 };
 
-export default HomePage;
+export default Footer;
