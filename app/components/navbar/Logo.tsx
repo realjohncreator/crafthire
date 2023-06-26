@@ -8,7 +8,7 @@ const Logo = () => {
     return (
         <div>
             <Link href="/">
-                <Image src={AppLogo} width={100} height={20} alt="app logo" className="-mt-2 lg:block hidden"/>
+                <Image src={AppLogo} width={100} height={20} alt="app logo" className="-mt-2"/>
             </Link>
         </div>
     );
