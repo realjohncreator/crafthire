@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <div className="bg-[#002924] text-[#FFFFFF]">
             <Container>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 lg:p-6 p-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:p-6 py-4">
                     <Talents/>
                     <AboutUs/>
                     <ContactUs/>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="p-6">
                     <LogoSocials/>
                 </div>
-                
+
                 <hr/>
 
                 <Copyright/>
