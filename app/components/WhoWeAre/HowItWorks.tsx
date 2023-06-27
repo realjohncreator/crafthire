@@ -11,7 +11,7 @@ const HowItWorks = () => {
                 <h1 className="text-4xl font-semibold">How it Works</h1>
                 <Image src={WorkImage} alt="work image"/>
 
-                <div className="grid grid-cols-1 lg:flex justify-between gap-10">
+                <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-52 gap-10">
                     <div className="flex flex-col gap-4">
                         <h1 className="font-semibold text-lg">Sign Up and fill the requirements</h1>
                         <p className="font-light">
@@ -36,6 +36,7 @@ const HowItWorks = () => {
                             choose a team of your choice, make <br/>payment and start your project at <br/> once.
                         </p>
                     </div>
+
                 </div>
             </div>
         </Container>
