@@ -24,31 +24,31 @@ const WeAreCraftHire = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-row lg:w-[499px] lg:h-[250px] lg:mt-auto mt-5">
-                    <div className="flex flex-col gap-14">
-                        <div className="flex flex-col gap-5 lg:w-[205px] lg:h-[108px]">
+                <div className="flex flex-col lg:w-[499px] lg:h-[250px] gap-10 lg:mt-0 mt-10">
+                    <div className="flex flex-row gap-10">
+                        <div className="flex flex-col gap-5">
                             <Image src={TwoK} alt="" className=""/>
                             <p className="font-light">
                                 We have a wide range of talents, and we adapt our approach to suit each company.
                             </p>
                         </div>
 
-                        <div className="flex flex-col gap-5 lg:w-[205px] lg:h-[108px]">
+                        <div className="flex flex-col gap-5">
+                            <Image src={ThreeSixtyNineK} alt="" className=""/>
+                            <p className="font-light">
+                                Our tech teams have successfully work on 369 projects across the globe. </p>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row lg:gap-24 gap-20">
+                        <div className="flex flex-col gap-5">
                             <Image src={EightyTwoK} alt="" className=""/>
                             <p className="font-light">
                                 Percentage of our client come back with more projects and connection.
                             </p>
                         </div>
-                    </div>
 
-                    <div className="flex flex-col gap-14">
-                        <div className="flex flex-col gap-5 lg:w-[205px] lg:h-[108px]">
-                            <Image src={ThreeSixtyNineK} alt="" className=""/>
-                            <p className="font-light">
-                                Our tech teams have successfully work on 369 projects across the globe. </p>
-                        </div>
-
-                        <div className="flex flex-col gap-5 lg:w-[205px] lg:h-[108px]">
+                        <div className="flex flex-col gap-5">
                             <Image src={TenK} alt="" className=""/>
                             <p className="font-light">
                                 You can trust the efficiency of our services even after 10 years. It can only get
