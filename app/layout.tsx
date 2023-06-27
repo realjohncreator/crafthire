@@ -21,7 +21,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
             <Navbar/>
             {/*clients only*/}
             <div className="min-h-screen flex flex-col">
-                <div className="flex-grow py-4">
+                <div className="flex-grow">
                     {children}
                 </div>
 
