@@ -1,12 +1,12 @@
 import React from "react";
-import Container from "@/app/components/Container";
+import HeroSection from "@/app/components/hero-section/HeroSection";
 
 const HomePage = () => {
     return (
-        <Container>
-            <div>HomePage</div>
-        </Container>
+        <div>
+            <HeroSection/>
+        </div>
     );
 };
-    
+
 export default HomePage;
