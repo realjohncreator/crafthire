@@ -10,7 +10,7 @@ import Copyright from "@/app/components/footer/Copyright";
 
 const Footer = () => {
     return (
-        <div className="bg-[#002924] text-[#FFFFFF]">
+        <div className="bg-[#00544B] text-[#FFFFFF]">
             <Container>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:p-6 py-4">
                     <Talents/>
