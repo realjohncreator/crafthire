@@ -7,7 +7,7 @@ import Container from "@/app/components/Container";
 const HowItWorks = () => {
     return (
         <Container>
-            <div className="lg:py-14 py-6 flex flex-col items-center gap-8 justify-center">
+            <div className="lg:pt-14 py-6 flex flex-col items-center gap-8 justify-center">
                 <h1 className="text-4xl font-semibold">How it Works</h1>
                 <Image src={WorkImage} alt="work image"/>
 

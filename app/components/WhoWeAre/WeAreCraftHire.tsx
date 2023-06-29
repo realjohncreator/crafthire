@@ -11,7 +11,7 @@ import ThreeSixtyNineK from "@/public/images/WhoWeAre/369+.png";
 const WeAreCraftHire = () => {
     return (
         <Container>
-            <div className="flex lg:flex-row flex-col justify-between mb-20">
+            <div className="flex lg:flex-row flex-col lg:gap-64 gap-10 py-40">
                 <div className="flex flex-col lg:w-[465px] lg:h-[244px] gap-5">
                     <div>
                         <h1 className="text-[#002924] text-6xl">We Are CraftHire</h1>
