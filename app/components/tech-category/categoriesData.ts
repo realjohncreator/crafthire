@@ -20,17 +20,17 @@ export const categoriesData = [
     },
     {
         label: "Web 3",
-        // image: Andela,
-        // category: "Web 3"
+        image: Andela,
+        category: "Web 3"
     },
     {
         label: "Data scientist",
-        // image: Andela2,
-        // category: "Data scientist"
+        image: Andela2,
+        category: "Data scientist"
     },
     {
         label: "Q/A Engineer",
-        // image: Andela1,
-        // category: "Q/A Engineer"
+        image: Andela1,
+        category: "Q/A Engineer"
     },
 ];

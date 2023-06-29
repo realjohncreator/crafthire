@@ -24,7 +24,8 @@ const CategoriesInfo: React.FC<ICategoriesInfo> = ({selected}) => {
         <Container>
             <>
                 <div className="flex flex-col gap-1 w-[970px] h-[455px]">
-                    <div className="cursor-pointer flex flex-row gap-4 lg:overflow-hidden    overflow-x-auto">
+                    <div
+                        className="cursor-pointer flex-shrink-0 flex flex-row gap-4 lg:overflow-hidden overflow-x-auto">
                         <h3 onClick={() => filterItems("All")}
                             className={`${selectedCategory === "All" ? "text-[#00544B] font-bold border-b-2 border-[#00544B]" : ""}`}>
                             All
@@ -57,14 +58,13 @@ const CategoriesInfo: React.FC<ICategoriesInfo> = ({selected}) => {
 
                     {/*Main components*/}
                     <div
-                        className="flex justify-between items-center gap-4 my-10 lg:overflow-hidden overflow-x-auto">
+                        className="flex justify-between items-center gap-4 my-10 py-1 overflow-x-auto">
                         {items.map((item) => {
                             const {image} = item;
 
                             return (
                                 <div className="flex-shrink-0">
-                                    {image && <img src={image.src} alt="Category"
-                                                   style={{objectFit: "cover", width: "100%", height: "100%"}}/>}
+                                    {image && <img src={image.src} alt="Category"/>}
                                 </div>
                             );
                         })}
