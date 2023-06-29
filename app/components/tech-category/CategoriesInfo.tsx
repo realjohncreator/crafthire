@@ -1,7 +1,7 @@
 "use client";
 import React, {useState} from "react";
-import Container from "@/app/components/Container";
 import {categoriesData} from "@/app/components/tech-category/categoriesData";
+import Container from "@/app/components/Container";
 
 interface ICategoriesInfo {
     selected: boolean;
@@ -57,7 +57,7 @@ const CategoriesInfo: React.FC<ICategoriesInfo> = ({selected}) => {
 
                     {/*Main components*/}
                     <div
-                        className="flex justify-between items-center justify-between gap-4 my-10 lg:overflow-hidden overflow-x-auto">
+                        className="flex justify-between items-center gap-4 my-10 lg:overflow-hidden overflow-x-auto">
                         {items.map((item) => {
                             const {image} = item;
 
