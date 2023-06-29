@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div
-            className="sticky top-0 flex justify-between items-center bg-[#00544B] text-[#FFFFFF] py-4 max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
+            className="sticky top-0 z-50 flex justify-between items-center bg-[#00544B] text-[#FFFFFF] py-4 max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
             {/* Mobile Button */}
             <div onClick={handleNav} className="block sm:hidden z-10">
                 {nav ? (
@@ -31,7 +31,7 @@ const Navbar = () => {
                     ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center flex-col gap-4 items-center w-full h-screen bg-[#00544B] text-center ease-in duration-300"
                     : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#00544B] text-center ease-in duration-300"
             }>
-                <div className='pb-5'>
+                <div className="pb-5">
                     <Logo/>
                 </div>
                 <MenuOptions/>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <Logo/>
             </div>
 
-            <div className='lg:flex hidden justify-end'>
+            <div className="lg:flex hidden justify-end">
                 <MenuOptions/>
             </div>
 
