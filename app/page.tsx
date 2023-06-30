@@ -5,6 +5,7 @@ import WeAreCraftHire from "@/app/components/WhoWeAre/WeAreCraftHire";
 import Categories from "@/app/components/tech-category/Categories";
 import Partners from "@/app/components/partners/Partners";
 import Main from "@/app/components/partners/Main";
+import Connect from "@/app/components/connect/Connect";
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <WeAreCraftHire/>
             <Categories/>
             <Main/>
+            <Connect/>
         </div>
     );
 };
