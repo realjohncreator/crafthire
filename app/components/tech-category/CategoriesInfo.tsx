@@ -63,7 +63,8 @@ const CategoriesInfo: React.FC<ICategoriesInfo> = ({selected}) => {
                             const {image} = item;
 
                             return (
-                                <div className="flex-shrink-0 object-cover" style={{height: "100%", display: "flex"}}>
+                                <div className="flex-shrink-0 object-cover"
+                                     style={{height: "100%", display: "flex"}}>
                                     {image && (
                                         <img
                                             src={image.src}
