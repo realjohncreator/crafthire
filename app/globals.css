@@ -4,7 +4,7 @@
 
 /* For Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
-    width: 12px; /* Adjust the width as per your preference */
+    width: 3px; /* Adjust the width as per your preference */
 }
 
 ::-webkit-scrollbar-track {
