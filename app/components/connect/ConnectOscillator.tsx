@@ -26,19 +26,17 @@ const ConnectOscillator = () => {
     }, []);
 
     return (
-        <Container>
-            <div className="w-[660px] h-[660px]">
-                {screenSize === "large" ? (
-                    <Image className="object-cover w-full" src={circle} alt="Connection Circle"/>
-                ) : (
-                    <Image
-                        className="mx-7 mt-20"
-                        src={small_circle}
-                        alt="Small Connection Circle"
-                    />
-                )}
-            </div>
-        </Container>
+        <div className="max-w-[2520px] mx-auto xl:mr-0 w-[660px] h-[660px]">
+            {screenSize === "large" ? (
+                <Image className="object-cover w-full" src={circle} alt="Connection Circle"/>
+            ) : (
+                <Image
+                    className="mx-7 mt-20"
+                    src={small_circle}
+                    alt="Small Connection Circle"
+                />
+            )}
+        </div>
     );
 };
 

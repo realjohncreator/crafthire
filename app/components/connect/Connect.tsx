@@ -11,7 +11,9 @@ const Connect = () => {
                 <ConnectOscillator/>
             </div>
 
-
+            <div>
+                test
+            </div>
         </div>
     );
 };
