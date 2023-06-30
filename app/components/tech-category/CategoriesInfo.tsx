@@ -58,12 +58,13 @@ const CategoriesInfo: React.FC<ICategoriesInfo> = ({selected}) => {
 
                     {/*Main components*/}
                     <div
-                        className="flex justify-between items-center gap-4 my-10 py-1 overflow-x-auto">
+                        className="flex justify-between items-center gap-4 my-10 py-2 overflow-x-auto">
                         {items.map((item) => {
                             const {image} = item;
 
                             return (
-                                <div className="flex-shrink-0 object-cover" style={{height: "100%", display: "flex"}}>
+                                <div className="flex-shrink-0 object-cover"
+                                     style={{height: "100%", display: "flex"}}>
                                     {image && (
                                         <img
                                             src={image.src}

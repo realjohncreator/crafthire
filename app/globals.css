@@ -4,7 +4,7 @@
 
 /* For Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
-    width: 12px; /* Adjust the width as per your preference */
+    width: 10px; /* Adjust the width as per your preference */
 }
 
 ::-webkit-scrollbar-track {
@@ -14,11 +14,3 @@
 ::-webkit-scrollbar-thumb {
     background-color: #00544B; /* Set the color of the scrollbar thumb */
 }
-
-/* For small and medium screens */
-@media (max-width: 768px) {
-    .flex-shrink-0 {
-        overflow-x: auto;
-    }
-}
-
