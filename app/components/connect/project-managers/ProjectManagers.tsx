@@ -8,7 +8,7 @@ const ProjectManagers = () => {
     return (
         <Container>
             <div
-                className="flex lg:flex-row flex-col-reverse lg:items-start items-center lg:py-20 py-32 lg:gap-96 gap-20">
+                className="flex lg:flex-row flex-col-reverse lg:items-start items-center lg:py-20 py-10 lg:gap-96 gap-20">
                 <ProjectImage/>
                 <ProjectDetails/>
             </div>
