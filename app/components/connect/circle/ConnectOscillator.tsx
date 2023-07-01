@@ -3,7 +3,6 @@ import circle from "@/public/images/connect/circle.png";
 import small_circle from "@/public/images/connect/small-circle.png";
 import Image from "next/image";
 import {useState, useEffect} from "react";
-import Container from "@/app/components/Container";
 
 const ConnectOscillator = () => {
     const [screenSize, setScreenSize] = useState("large");
@@ -26,12 +25,12 @@ const ConnectOscillator = () => {
     }, []);
 
     return (
-        <div className="max-w-[2520px] mx-auto xl:mr-0 w-[660px] h-[660px]">
+        <div className="max-w-[2520px] mx-auto xl:mr-0 w-[660px]">
             {screenSize === "large" ? (
                 <Image className="object-cover w-full" src={circle} alt="Connection Circle"/>
             ) : (
                 <Image
-                    className="mx-7 mt-20"
+                    className="mx-7 w-[300px] h-[304px] mt-20"
                     src={small_circle}
                     alt="Small Connection Circle"
                 />
