@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import ConnectDetail from "@/app/components/connect/ConnectDetail";
-import ConnectOscillator from "@/app/components/connect/ConnectOscillator";
+import ConnectDetail from "@/app/components/connect/circle/ConnectDetail";
+import ConnectOscillator from "@/app/components/connect/circle/ConnectOscillator";
+import ProjectManagers from "@/app/components/connect/project-managers/ProjectManagers";
 
 const Connect = () => {
     return (
@@ -12,7 +13,7 @@ const Connect = () => {
             </div>
 
             <div>
-                test
+                <ProjectManagers/>
             </div>
         </div>
     );
