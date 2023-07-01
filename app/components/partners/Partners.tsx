@@ -24,6 +24,14 @@ export default class Partners extends Component {
             slidesToShow: 6, // Number of slides to show at once
             slidesToScroll: 1,// Number of slides to scroll when navigating
             vertical: false, // Allow horizontal or vertical scrolling
+            responsive: [
+                {
+                    breakpoint: 768, // Breakpoint for small screens
+                    settings: {
+                        slidesToShow: 4,
+                    },
+                },
+            ]
         };
 
         return (
