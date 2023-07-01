@@ -6,6 +6,7 @@ import Categories from "@/app/components/tech-category/Categories";
 import Partners from "@/app/components/partners/Partners";
 import Main from "@/app/components/partners/Main";
 import Connect from "@/app/components/connect/Connect";
+import PartnershipTopTalent from "@/app/components/partnership-top-talent/PartnershipTopTalent";
 
 const HomePage = () => {
     return (
@@ -16,6 +17,7 @@ const HomePage = () => {
             <Categories/>
             <Main/>
             <Connect/>
+            <PartnershipTopTalent/>
         </div>
     );
 };
