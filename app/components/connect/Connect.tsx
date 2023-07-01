@@ -7,7 +7,7 @@ import ProjectManagers from "@/app/components/connect/project-managers/ProjectMa
 const Connect = () => {
     return (
         <div className="lg:my-20 my-10 bg-[#00544B] text-[#F5FFFE]">
-            <div className="lg:flex justify-between items-center gap-10 lg:pb-20">
+            <div className="md:flex justify-between items-center gap-10 lg:pb-20">
                 <ConnectDetail/>
                 <ConnectOscillator/>
             </div>

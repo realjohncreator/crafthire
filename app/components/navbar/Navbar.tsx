@@ -38,11 +38,11 @@ const Navbar = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="lg:flex hidden">
+            <div className="md:flex hidden">
                 <Logo/>
             </div>
 
-            <div className="lg:flex hidden justify-end">
+            <div className="md:flex hidden justify-end">
                 <MenuOptions/>
             </div>
 

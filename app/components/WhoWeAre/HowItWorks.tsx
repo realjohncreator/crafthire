@@ -7,11 +7,11 @@ import Container from "@/app/components/Container";
 const HowItWorks = () => {
     return (
         <Container>
-            <div className="lg:pt-14 py-6 flex flex-col items-center gap-8 justify-center">
+            <div className="md:pt-14 py-6 flex flex-col items-center gap-8 justify-center">
                 <h1 className="text-4xl font-semibold">How it Works</h1>
                 <Image src={WorkImage} alt="work image"/>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-52 gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-52 gap-10">
                     <div className="flex flex-col gap-4">
                         <h1 className="font-semibold text-lg">Sign Up and fill the requirements</h1>
                         <p className="font-light">
