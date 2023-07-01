@@ -30,7 +30,7 @@ const ConnectOscillator = () => {
                 <Image className="object-cover w-full" src={circle} alt="Connection Circle"/>
             ) : (
                 <Image
-                    className="mx-7 w-[300px] h-[304px] mt-20"
+                    className="flex lg:m-0 m-auto ml-12 w-[300px] mt-20"
                     src={small_circle}
                     alt="Small Connection Circle"
                 />
