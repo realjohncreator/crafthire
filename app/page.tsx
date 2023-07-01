@@ -7,6 +7,7 @@ import Partners from "@/app/components/partners/Partners";
 import Main from "@/app/components/partners/Main";
 import Connect from "@/app/components/connect/Connect";
 import PartnershipTopTalent from "@/app/components/partnership-top-talent/PartnershipTopTalent";
+import Testimonial from "@/app/components/testmonials/Testimonial";
 
 const HomePage = () => {
     return (
@@ -18,6 +19,7 @@ const HomePage = () => {
             <Main/>
             <Connect/>
             <PartnershipTopTalent/>
+            <Testimonial/>
         </div>
     );
 };

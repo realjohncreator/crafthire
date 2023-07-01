@@ -14,3 +14,7 @@
 ::-webkit-scrollbar-thumb {
     background-color: #00544B; /* Set the color of the scrollbar thumb */
 }
+
+.slick-slide {
+    padding: 10px;
+}
