@@ -7,7 +7,7 @@ import Container from "@/app/components/Container";
 const PartnershipTopTalent = () => {
     return (
         <Container>
-            <div className="flex lg:flex-row flex-col items-center lg:gap-40">
+            <div className="flex lg:flex-row flex-col items-center lg:gap-60">
                 <PartnershipTopTalentText/>
                 <PartnershipTopTalentImage/>
             </div>

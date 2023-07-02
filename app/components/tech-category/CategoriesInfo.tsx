@@ -3,11 +3,7 @@ import React, {useState} from "react";
 import {categoriesData} from "@/app/components/tech-category/categoriesData";
 import Container from "@/app/components/Container";
 
-interface ICategoriesInfo {
-    selected: boolean;
-}
-
-const CategoriesInfo: React.FC<ICategoriesInfo> = ({selected}) => {
+const CategoriesInfo = () => {
     const [items, setItems] = useState(categoriesData);
     const [selectedCategory, setSelectedCategory] = useState("");
 
@@ -23,9 +19,9 @@ const CategoriesInfo: React.FC<ICategoriesInfo> = ({selected}) => {
     return (
         <Container>
             <>
-                <div className="flex flex-col gap-1 w-[970px] h-[455px]">
+                <div className="flex flex-col gap-1 lg:w-[970px] md:w-[770px] w-[339px] h-auto">
                     <div
-                        className="cursor-pointer flex-shrink-0 flex flex-row gap-4 lg:overflow-hidden overflow-x-auto">
+                        className="cursor-pointer flex-shrink-0 flex flex-row gap-4 lg:text-base text-sm whitespace-nowrap lg:overflow-hidden overflow-x-auto">
                         <h3 onClick={() => filterItems("All")}
                             className={`${selectedCategory === "All" ? "text-[#00544B] font-bold border-b-2 border-[#00544B]" : ""}`}>
                             All
