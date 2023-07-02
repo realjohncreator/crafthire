@@ -7,7 +7,7 @@ const Categories = () => {
     return (
         <div className="flex lg:flex-row flex-col gap-10 items-center">
             <CategoryDescription/>
-            <CategoriesInfo selected/>
+            <CategoriesInfo/>
         </div>
     );
 };
