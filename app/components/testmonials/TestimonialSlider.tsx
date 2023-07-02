@@ -28,7 +28,7 @@ export default class TestimonialSlider extends Component {
                 {
                     breakpoint: 1024, // Breakpoint for desktop and larger screens
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 2,
                     },
                 },
                 {
