@@ -28,8 +28,8 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <div className={
                 nav
-                    ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center flex-col gap-4 items-center w-full h-screen bg-[#00544B] text-center ease-in duration-300"
-                    : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#00544B] text-center ease-in duration-300"
+                    ? "md:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center flex-col gap-4 items-center w-full h-screen bg-[#00544B] text-center ease-in duration-300"
+                    : "md:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#00544B] text-center ease-in duration-300"
             }>
                 <div className="pb-5">
                     <Logo/>
@@ -38,7 +38,7 @@ const Navbar = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="md:flex hidden">
+            <div className="lg:flex hidden">
                 <Logo/>
             </div>
 

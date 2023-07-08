@@ -6,6 +6,7 @@ import {FcGoogle} from "react-icons/fc";
 import {AiFillEye, AiFillEyeInvisible} from "react-icons/ai";
 import Link from "next/link";
 import Container from "@/app/components/Container";
+import Strokes from "@/app/components/auth/login/Strokes";
 
 const Login = () => {
     const [passwordVisible, setPasswordVisible] = useState(false);
@@ -42,22 +43,23 @@ const Login = () => {
     };
 
     return (
-        <div className="relative flex justify-center items-center w-screen h-screen bg-[#F5FFFE]">
+        <div className="bg-[#F5FFFE] flex items-center justify-center p-10">
             <Container>
-                <div className="bg-[#F5FFFE] rounded-lg p-10 h-auto z-50">
-                    <div className="flex flex-col items-center justify-center lg:w-[456px]">
+                <div className="bg-[#F5FFFE]">
+                    <div className="flex flex-col items-center justify-center">
                         <h1 className="text-2xl font-bold text-center">Sign in to Crafthire</h1>
 
                         <div className="flex flex-col items-center justify-center mt-10 gap-10">
                             <div
-                                className="flex flex-row items-center justify-center gap-5 my-3 py-3 font-bold w-[438px] border border-gray-200 rounded-md">
+                                className="flex flex-row items-center justify-center gap-5 my-3 py-3 font-bold md:w-[438px] w-[380px] border border-gray-200 rounded-md">
                                 <FcGoogle/>
                                 <h2 className="cursor-pointer">Sign in with Google</h2>
                             </div>
 
                             <div className="flex justify-center items-center mb-3 font-bold">Or</div>
 
-                            <div className="flex flex-col gap-5 border border-gray-200 rounded-md p-5 w-[438px]">
+                            <div
+                                className="flex flex-col gap-5 border border-gray-200 rounded-md p-5 md:w-[438px] w-[380px]">
                                 <div className={`flex flex-col gap-1 ${emailError ? "border-b border-red-500" : ""}`}>
                                     <label htmlFor="email" className="font-bold">Enter your email</label>
                                     <input
@@ -85,19 +87,19 @@ const Login = () => {
                                     />
                                     {passwordVisible ? (
                                         <AiFillEyeInvisible
-                                            className="absolute lg:top-10 lg:left-80 text-gray-400 cursor-pointer"
+                                            className="absolute top-10 lg:left-80 left-60 text-gray-400 cursor-pointer"
                                             onClick={togglePasswordVisibility}
                                         />
                                     ) : (
                                         <AiFillEye
-                                            className="absolute lg:top-10 lg:left-80 text-gray-400 cursor-pointer"
+                                            className="absolute top-10 lg:left-80 left-60 text-gray-400 cursor-pointer"
                                             onClick={togglePasswordVisibility}
                                         />
                                     )}
                                 </div>
 
                                 <Link href="/">
-                                    <p className="hover:border-b-2 hover:border-b-gray-500 w-[130px] font-bold whitespace-nowrap">
+                                    <p className="hover:text-[#00544B] transition duration-300 font-bold whitespace-nowrap">
                                         Forgot password?
                                     </p>
                                 </Link>
@@ -110,7 +112,8 @@ const Login = () => {
 
                             <p className="flex flex-row items-center justify-center gap-1 font-bold">
                                 Don’t have an account?
-                                <Link href="pages/auth/register" className="hover:border-b-2 hover:border-b-gray-500">
+                                <Link href="pages/auth/register"
+                                      className="hover:text-[#00544B] transition duration-300">
                                     Sign Up
                                 </Link>
                             </p>

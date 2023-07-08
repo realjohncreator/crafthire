@@ -7,21 +7,23 @@ const MenuOptions = () => {
         <div className="">
             <ul className="md:flex flex-row md:gap-4 lg:text-lg lg:font-light text-xl lg:leading-normal leading-10">
                 <Link href="">
-                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">Top 1%
+                    <li className="whitespace-nowrap font-bold hover:bg-[#00473F] lg:px-4 lg:py-3 md:px-2 md:py-2 px-4 py-3 rounded-sm transition duration-300">
+                        Top 1%
                     </li>
                 </Link>
                 <Link href="">
-                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">Why?</li>
+                    <li className="whitespace-nowrap font-bold hover:bg-[#00473F] lg:px-4 lg:py-3 md:px-2 md:py-2 px-4 py-3 rounded-sm transition duration-300">Why?</li>
                 </Link>
                 <Link href="">
-                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">Talents</li>
+                    <li className="whitespace-nowrap font-bold hover:bg-[#00473F] lg:px-4 lg:py-3 md:px-2 md:py-2 px-4 py-3 rounded-sm transition duration-300">Talents</li>
                 </Link>
                 <Link href="">
-                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">About us
+                    <li className="whitespace-nowrap font-bold hover:bg-[#00473F] lg:px-4 lg:py-3 md:px-2 md:py-2 px-4 py-3 rounded-sm transition duration-300">
+                        About us
                     </li>
                 </Link>
                 <Link href="">
-                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">Help</li>
+                    <li className="whitespace-nowrap font-bold hover:bg-[#00473F] lg:px-4 lg:py-3 md:px-2 md:py-2 px-4 py-3 rounded-sm transition duration-300">Help</li>
                 </Link>
             </ul>
         </div>
