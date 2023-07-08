@@ -51,7 +51,7 @@ const Login = () => {
 
                         <div className="flex flex-col items-center justify-center mt-10 gap-10">
                             <div
-                                className="flex flex-row items-center justify-center gap-5 my-3 py-3 font-bold md:w-[438px] w-[380px] border border-gray-200 rounded-md">
+                                className="flex flex-row items-center justify-center gap-5 my-3 py-3 font-bold md:w-[438px] w-[320px] border border-gray-200 rounded-md">
                                 <FcGoogle/>
                                 <h2 className="cursor-pointer">Sign in with Google</h2>
                             </div>
@@ -59,7 +59,7 @@ const Login = () => {
                             <div className="flex justify-center items-center mb-3 font-bold">Or</div>
 
                             <div
-                                className="flex flex-col gap-5 border border-gray-200 rounded-md p-5 md:w-[438px] w-[380px]">
+                                className="flex flex-col gap-5 border border-gray-200 rounded-md p-5 md:w-[438px] w-[320px]">
                                 <div className={`flex flex-col gap-1 ${emailError ? "border-b border-red-500" : ""}`}>
                                     <label htmlFor="email" className="font-bold">Enter your email</label>
                                     <input

@@ -6,7 +6,7 @@ const GetStartedButton = () => {
     return (
         <div>
             <Link href=""
-                  className="border border-[#FFCC00] text-[#FFCC00] px-2 py-1 rounded-sm font-semibold hover:border-[#FFFFFF] hover:text-[#FFFFFF] transition duration-300">
+                  className="border border-[#FFCC00] text-[#FFCC00] px-4 py-3 rounded-sm font-semibold hover:border-[#FFFFFF] hover:text-[#FFFFFF] transition duration-300">
                 Hire a Team
             </Link>
         </div>
