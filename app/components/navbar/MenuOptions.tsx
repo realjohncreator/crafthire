@@ -7,19 +7,21 @@ const MenuOptions = () => {
         <div className="">
             <ul className="md:flex flex-row md:gap-4 lg:text-lg lg:font-light text-xl lg:leading-normal leading-10">
                 <Link href="">
-                    <li>Top 1%</li>
+                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">Top 1%
+                    </li>
                 </Link>
                 <Link href="">
-                    <li>Why?</li>
+                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">Why?</li>
                 </Link>
                 <Link href="">
-                    <li>Talents</li>
+                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">Talents</li>
                 </Link>
                 <Link href="">
-                    <li>About us</li>
+                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">About us
+                    </li>
                 </Link>
                 <Link href="">
-                    <li>Help</li>
+                    <li className="font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">Help</li>
                 </Link>
             </ul>
         </div>

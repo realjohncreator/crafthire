@@ -49,7 +49,7 @@ export default class TestimonialSlider extends Component {
             <div>
                 <Slider {...settings}>
                     {/*first*/}
-                    <div className="shadow-md rounded-2xl bg-white p-5 m-5">
+                    <div className="shadow-md rounded-2xl bg-[#F5FFFE] p-5 m-5">
                         <div className="flex flex-col gap-4">
                             <Image src={quotation_mark} className="w-[36px]" alt="quotation mark"/>
                             <p className="lg:w-[351px] w-[278px] lg:text-base text-xs font-light">
@@ -72,7 +72,7 @@ export default class TestimonialSlider extends Component {
                     </div>
 
                     {/*second*/}
-                    <div className="shadow-md rounded-2xl bg-white p-5 m-5">
+                    <div className="shadow-md rounded-2xl bg-[#F5FFFE] p-5 m-5">
                         <div className="flex flex-col gap-4">
                             <Image src={quotation_mark} className="w-[36px]" alt="quotation mark"/>
                             <p className="lg:w-[351px] w-[278px] lg:text-base text-xs font-light">
@@ -95,7 +95,7 @@ export default class TestimonialSlider extends Component {
                     </div>
 
                     {/*third*/}
-                    <div className="shadow-md rounded-2xl bg-white p-5 m-5">
+                    <div className="shadow-md rounded-2xl bg-[#F5FFFE] p-5 m-5">
                         <div className="flex flex-col gap-4">
                             <Image src={quotation_mark} className="w-[36px]" alt="quotation mark"/>
                             <p className="lg:w-[351px] w-[278px] lg:text-base text-xs font-light">
@@ -118,7 +118,7 @@ export default class TestimonialSlider extends Component {
                     </div>
 
                     {/*fourth*/}
-                    <div className="shadow-md rounded-2xl bg-white p-5 m-5">
+                    <div className="shadow-md rounded-2xl bg-[#F5FFFE] p-5 m-5">
                         <div className="flex flex-col gap-4">
                             <Image src={quotation_mark} className="w-[36px]" alt="quotation mark"/>
                             <p className="lg:w-[351px] w-[278px] lg:text-base text-xs font-light">
@@ -141,7 +141,7 @@ export default class TestimonialSlider extends Component {
                     </div>
 
                     {/*fifth*/}
-                    <div className="shadow-md rounded-2xl bg-white p-5 m-5">
+                    <div className="shadow-md rounded-2xl bg-[#F5FFFE] p-5 m-5">
                         <div className="flex flex-col gap-4">
                             <Image src={quotation_mark} className="w-[36px]" alt="quotation mark"/>
                             <p className="lg:w-[351px] w-[278px] lg:text-base text-xs font-light">
@@ -164,7 +164,7 @@ export default class TestimonialSlider extends Component {
                     </div>
 
                     {/*sixth*/}
-                    <div className="shadow-md rounded-2xl bg-white p-5 m-5">
+                    <div className="shadow-md rounded-2xl bg-[#F5FFFE] p-5 m-5">
                         <div className="flex flex-col gap-4">
                             <Image src={quotation_mark} className="w-[36px]" alt="quotation mark"/>
                             <p className="lg:w-[351px] w-[278px] lg:text-base text-xs font-light">
@@ -187,7 +187,7 @@ export default class TestimonialSlider extends Component {
                     </div>
 
                     {/*seventh*/}
-                    <div className="shadow-md rounded-2xl bg-white p-5 m-5">
+                    <div className="shadow-md rounded-2xl bg-[#F5FFFE] p-5 m-5">
                         <div className="flex flex-col gap-4">
                             <Image src={quotation_mark} className="w-[36px]" alt="quotation mark"/>
                             <p className="lg:w-[351px] w-[278px] lg:text-base text-xs font-light">

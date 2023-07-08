@@ -6,7 +6,7 @@ const HireTeamButton = () => {
     return (
         <div>
             <Link href=""
-                  className="bg-[#FFCC00] text-[#212121] px-2 py-1 rounded-sm font-semibold hover:bg-[#00544B] hover:text-[#FFFFFF] transition duration-300">
+                  className="bg-[#FFCC00] text-[#212121] px-4 py-3 rounded-sm font-bold hover:bg-inherit border border-[#FFCC00] hover:border-[#FFCC00] hover:text-[#FFFFFF] transition duration-300">
                 Hire a Team
             </Link>
         </div>

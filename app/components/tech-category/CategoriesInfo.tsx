@@ -21,7 +21,7 @@ const CategoriesInfo = () => {
             <>
                 <div className="flex flex-col gap-1 lg:w-[970px] md:w-[770px] w-[339px] h-auto">
                     <div
-                        className="cursor-pointer flex-shrink-0 flex flex-row gap-4 lg:text-base text-sm whitespace-nowrap lg:overflow-hidden overflow-x-auto">
+                        className="cursor-pointer font-bold flex-shrink-0 flex flex-row gap-4 lg:text-base text-sm whitespace-nowrap lg:overflow-hidden overflow-x-auto">
                         <h3 onClick={() => filterItems("All")}
                             className={`${selectedCategory === "All" ? "text-[#00544B] font-bold border-b-2 border-[#00544B]" : ""}`}>
                             All
