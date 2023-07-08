@@ -8,7 +8,10 @@ const UserMenu = () => {
     return (
         <div className="flex flex-row items-center gap-4">
             <ThemeButton/>
-            <Link href="" className="lg:font-light">Login</Link>
+            <Link href="pages/auth/login"
+                  className="lg:font-bold hover:bg-[#00473F] px-4 py-3 rounded-sm transition duration-300">
+                Login
+            </Link>
             <HireTeamButton/>
         </div>
     );

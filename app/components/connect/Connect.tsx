@@ -6,7 +6,7 @@ import WithDashboard from "@/app/components/connect/with-dashboard/WithDashboard
 
 const Connect = () => {
     return (
-        <div className="lg:my-20 my-10 bg-[#00544B] text-[#F5FFFE]">
+        <div className="bg-[#00544B] text-[#F5FFFE]">
             <Circle/>
             <ProjectManagers/>
             <WithDashboard/>

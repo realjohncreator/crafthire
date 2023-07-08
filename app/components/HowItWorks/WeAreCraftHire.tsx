@@ -56,7 +56,6 @@ const WeAreCraftHire = () => {
                             </p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </Container>

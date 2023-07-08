@@ -5,7 +5,7 @@ import CategoriesInfo from "@/app/components/tech-category/CategoriesInfo";
 
 const Categories = () => {
     return (
-        <div className="flex lg:flex-row flex-col gap-10 items-center">
+        <div className="flex lg:flex-row flex-col gap-10 items-center bg-[#F5FFFE]">
             <CategoryDescription/>
             <CategoriesInfo/>
         </div>

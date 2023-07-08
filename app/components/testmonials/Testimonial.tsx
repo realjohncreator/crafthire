@@ -6,12 +6,14 @@ import TestimonialSlider from "@/app/components/testmonials/TestimonialSlider";
 
 const Testimonial = () => {
     return (
-        <Container>
-            <div className="flex flex-col lg:gap-10 gap-5 lg:py-32">
-                <Heading/>
-                <TestimonialSlider/>
-            </div>
-        </Container>
+        <div className="bg-[#F5FFFE]">
+            <Container>
+                <div className="flex flex-col lg:gap-10 gap-5 lg:py-32">
+                    <Heading/>
+                    <TestimonialSlider/>
+                </div>
+            </Container>
+        </div>
     );
 };
 
