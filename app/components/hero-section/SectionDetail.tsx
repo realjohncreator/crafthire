@@ -5,7 +5,7 @@ import HireTeamButton from "@/app/components/HireTeamButton";
 const SectionDetail = () => {
     return (
         <div className="w-[550px] h-[394px]">
-            <h1 className="w-[524px] h-[162px] font-bold lg:text-6xl text-4xl leading-10">
+            <h1 className="componentHeading w-[524px] h-[162px] font-bold lg:text-6xl text-4xl leading-10">
                 Hire <span className="text-[#FFCC00]">Top 1%</span> tech <br/> rookies for your <br/> project
             </h1>
 
