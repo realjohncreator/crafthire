@@ -8,6 +8,8 @@ import Testimonial from "@/app/components/testmonials/Testimonial";
 import MainHowItWorks from "@/app/components/HowItWorks/MainHowItWorks";
 
 const HomePage = () => {
+    // throw new Error("Something went wrong");
+
     return (
         <div>
             <HeroSection/>
