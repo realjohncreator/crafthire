@@ -14,7 +14,7 @@ const WeAreCraftHire = () => {
             <div className="flex lg:flex-row flex-col lg:gap-64 gap-10 lg:py-40 pt-10 pb-32">
                 <div className="flex flex-col lg:w-[465px] lg:h-[244px] gap-5">
                     <div>
-                        <h1 className="text-[#002924] text-6xl">We Are CraftHire</h1>
+                        <h1 className="text-[#002924] lg:text-6xl text-4xl font-bold">We Are CraftHire</h1>
                         <Image src={Arrow} alt="arrow" className="-mt-3"/>
                     </div>
                     <p className="font-light">

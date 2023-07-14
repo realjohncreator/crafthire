@@ -4,7 +4,7 @@ import React from "react";
 const PartnershipTopTalentText = () => {
     return (
         <div className="w-[293px] flex flex-col gap-5">
-            <h1 className="lg:text-4xl text-2xl text-[#002924]">
+            <h1 className="lg:text-5xl text-4xl text-[#002924] font-bold">
                 Partnership <br/> with top talent pools
             </h1>
             <p className="text-[#424242] font-light">

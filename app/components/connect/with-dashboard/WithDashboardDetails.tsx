@@ -8,8 +8,8 @@ const WithDashboardDetails = () => {
     return (
         <div className="lg:w-[596px] w-[322px] flex flex-col gap-14 lg:items-start items-center">
             <div className="flex flex-col gap-4 lg:pt-0 pt-10">
-                <h1 className="lg:text-4xl text-2xl font-light">
-                    Stay in control with our
+                <h1 className="lg:text-5xl text-2xl font-light">
+                    Stay in control with our <br/>
                     <span className="font-bold">Project Tracking</span>
                 </h1>
                 <p className="font-bold lg:text-lg text-sm">

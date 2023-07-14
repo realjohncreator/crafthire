@@ -7,7 +7,7 @@ const ProjectDetails = () => {
     return (
         <div className="lg:w-[529px] w-[308px]">
             <div className="flex flex-col gap-4">
-                <h1 className="lg:text-4xl text-2xl">Get the guidance of <br/> <span className="font-bold">Project Managers</span>
+                <h1 className="lg:text-5xl text-2xl">Get the guidance of <br/> <span className="font-bold">Project Managers</span>
                 </h1>
                 <p className="font-bold lg:text-lg text-sm">
                     With their expert guidance and unwavering dedication, you'll witness your ideas take shape and
