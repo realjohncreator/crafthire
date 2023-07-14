@@ -1,7 +1,6 @@
 import "./globals.css";
 import {Nunito} from "next/font/google";
 import React from "react";
-import Providers from "@/app/components/DarkMode/Providers";
 import Navbar from "@/app/components/navbar/Navbar";
 import Footer from "@/app/components/footer/Footer";
 
@@ -16,7 +15,6 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
         <html lang="en">
         <body className={nunito.className}>
-        <Providers>
             {/*clients only*/}
             <Navbar/>
             {/*clients only*/}
@@ -29,7 +27,6 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
                     <Footer/>
                 </div>
             </div>
-        </Providers>
         </body>
         </html>
     );
