@@ -6,7 +6,7 @@ import Image from "next/image";
 const WithDashboardImage = () => {
     return (
         <div>
-            <Image src={dashboardImage} className="" alt="Dashboard"/>
+            <Image src={dashboardImage} className="lg:w-[1050px]" alt="Dashboard"/>
         </div>
     );
 };

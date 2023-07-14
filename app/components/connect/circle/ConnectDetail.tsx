@@ -9,7 +9,7 @@ const ConnectDetail = () => {
         <Container>
             <div className="lg:w-[569px] w-[331px] flex flex-col gap-14 lg:items-start items-center">
                 <div className="flex flex-col gap-4 lg:pt-0 pt-10">
-                    <h1 className="lg:text-4xl text-2xl font-light">
+                    <h1 className="lg:text-5xl text-2xl font-light">
                         Connect and <br/> collaborate with our <br/>
                         <span className="font-bold">Communication Tools</span>
                     </h1>
