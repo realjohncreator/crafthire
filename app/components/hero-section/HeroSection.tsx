@@ -8,7 +8,8 @@ const HeroSection = () => {
     return (
         <div className="bg-[#00544B] text-[#FFFFFF]">
             <Container>
-                <div className="grid grid-cols-1 lg:flex justify-between items-center gap-4 lg:py-14 py-2">
+                <div
+                    className="grid grid-cols-1 lg:flex justify-between items-center gap-4 py-32">
                     <SectionDetail/>
                     <SectionImage/>
                 </div>

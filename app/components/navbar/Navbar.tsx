@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div
-            className="sticky top-0 z-50 flex justify-between items-center bg-[#00544B] text-[#FFFFFF] py-4 max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
+            className="fixed inset-x-0 h-fit top-0 z-50 flex justify-between items-center bg-[#00544B] text-[#FFFFFF] py-4 max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
             {/* Mobile Button */}
             <div onClick={handleNav} className="block sm:hidden z-10">
                 {nav ? (

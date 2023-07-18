@@ -3,7 +3,6 @@ import {Nunito} from "next/font/google";
 import React from "react";
 import Navbar from "@/app/components/navbar/Navbar";
 import Footer from "@/app/components/footer/Footer";
-// import {ClerkProvider} from "@clerk/nextjs";
 
 const nunito = Nunito({subsets: ["latin"]});
 
@@ -14,7 +13,6 @@ export const metadata = {
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
-        // <ClerkProvider>
         <html lang="en">
         <body className={nunito.className}>
         {/*clients only*/}
@@ -31,6 +29,5 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
         </div>
         </body>
         </html>
-        // </ClerkProvider>
     );
 }
